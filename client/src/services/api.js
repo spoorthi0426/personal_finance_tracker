@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://personal-finance-tracker-77p9.onrender.com/api',
+  baseURL: 'https://personal-finance-tracker-1-7i5x.onrender.com',
 });
 
 export async function sendChatMessage(payload) {
